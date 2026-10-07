@@ -1,4 +1,4 @@
-# HC.ACRULES.2025R2
+# HC-ACRULES-2025R2
 
 ast-grep rules that CodeRabbit runs on Heuristyc pull requests whose destination is Acumatica 2025R2 or an older release.
 
