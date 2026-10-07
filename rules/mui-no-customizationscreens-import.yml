@@ -30,3 +30,5 @@ rule:
       has:
         field: function
         kind: import
+metadata:
+  skill: acumatica-modern-ui

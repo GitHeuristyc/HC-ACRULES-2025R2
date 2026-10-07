@@ -1,8 +1,0 @@
-id: acrules-probe-pxdatabase
-language: csharp
-severity: error
-message: "ACRULES-PROBE: direct PXDatabase write bypasses the graph cache and events."
-rule:
-  pattern: PXDatabase.$M($$$)
-constraints:
-  M: { regex: '^(Update|Insert|Delete)' }
